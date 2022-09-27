@@ -22,5 +22,7 @@ q = a * w
 print(q)
 
 
-e = a + q
-print(e)
+q = str(127764)
+print(b +' '+ q)
+
+print(f'{b} 127764)
