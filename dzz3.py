@@ -1,42 +1,32 @@
-a = 123556
-b = 344
+print('Write the number a = ')
+a = int(input())
+print('Write the number b = ')
+b = int(input())
 print(a % b)
 
 
 
-
-import math
-k = 2870345
-q = 2870349
+print('Write the number k = ')
+k = int(input())
+print('Write the number q = ')
+q = int(input())
+print(q > k)
 if q > k:
     print(max(k,q))
 
 
-n = 47
-suma = 0
-while n > 0:
-    digit = n % 10
-    suma = suma + digit
-    n = n // 10
 
-f = 235
-suma1 = 0
-while f > 0:
-    we = f % 10
-    suma1 = suma1 + we
-    f = f // 10
-if suma > suma1:
-    print(max(suma,suma1))
+print('Write the number g = ')
+g = int(input())
+print('Write the number r = ')
+r = int(input())
 
-
-g = 762232
 kol = 0
 while g > 0:
     ew = g % 10
     kol = kol + 1
     g = g // 10
 
-r =  2433637801
 kol1 = 0
 while r > 0:
     rew = g % 10
@@ -45,3 +35,23 @@ while r > 0:
 
 if kol1 > kol:
     print(max(kol, kol1))
+
+
+
+print('Write the number n = ')
+n = int(input())
+print('Write the number f = ')
+f = int(input())
+print('large sum of digits')
+suma = 0
+while n > 0:
+    digit = n % 10
+    suma = suma + digit
+    n = n // 10
+suma1 = 0
+while f > 0:
+    we = f % 10
+    suma1 = suma1 + we
+    f = f // 10
+if suma > suma1:
+    print(max(suma,suma1))
