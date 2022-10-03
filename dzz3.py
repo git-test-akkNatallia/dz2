@@ -4,6 +4,7 @@ print(a % b)
 
 
 
+
 import math
 k = 2870345
 q = 2870349
@@ -35,7 +36,7 @@ while g > 0:
     kol = kol + 1
     g = g // 10
 
-r = 2433637801
+r =  2433637801
 kol1 = 0
 while r > 0:
     rew = g % 10
