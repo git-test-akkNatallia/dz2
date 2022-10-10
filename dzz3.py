@@ -5,7 +5,6 @@ b = int(input())
 print(a % b)
 
 
-
 print('Write the number k = ')
 k = int(input())
 print('Write the number q = ')
@@ -13,7 +12,6 @@ q = int(input())
 print(q > k)
 if q > k:
     print(max(k,q))
-
 
 
 print('Write the number g = ')
